@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentPesan">
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/header_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#C5A0E1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"/>
+        <ImageView
+            android:id="@id/usericon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="58dp"
+            android:minWidth="58dp"
+            android:src="@drawable/ic_akun"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@id/n_pesan1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Farah"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@id/t_pesan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Kemarin"
+                android:textSize="14dp"
+                app:layout_constraintTop_toBottomOf="@id/header_pesan"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#c5a0e1"
+        android:text="Kemarin"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="116dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:background="#f5f5f5">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:startIconDrawable="@drawable/emo"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/send">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tulis Pesan" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+</FrameLayout>

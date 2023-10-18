@@ -13,16 +13,17 @@
         android:theme="@style/Theme.Wo_macro"
         tools:targetApi="31">
         <activity
+            android:name=".DeskripsiLayananActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileVendorActivity"
+            android:exported="true" />
+        <activity
             android:name=".CobaActivity"
             android:exported="false" />
         <activity
             android:name=".BerandActivity"
             android:exported="true" />
-        <activity
-            android:name=".BerandaActivity"
-            android:exported="false"
-            android:label="@string/title_activity_beranda"
-            android:theme="@style/Theme.Wo_macro" />
         <activity
             android:name=".Daftar"
             android:exported="false" />

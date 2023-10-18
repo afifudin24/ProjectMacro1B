@@ -24,172 +24,6 @@
                     android:layout_height="match_parent"
                     android:layout_margin="20px" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:orientation="horizontal">
-
-                    <HorizontalScrollView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <FrameLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imageView2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    app:srcCompat="@drawable/foto1" />
-
-                                <FrameLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="match_parent">
-
-
-                                    <TextView
-                                        android:id="@+id/textView"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginTop="16dp"
-                                        android:layout_marginEnd="16dp"
-                                        android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
-                                        android:padding="10dp"
-                                        android:text="PROMO"
-                                        android:textColor="#FFFFFF"
-                                        android:textStyle="bold" />
-
-                                    <TextView
-                                        android:id="@+id/textView2"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="left|bottom"
-                                        android:layout_marginLeft="16dp"
-                                        android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
-                                        android:padding="10dp"
-                                        android:text="DAPATKAN PROMO"
-                                        android:textColor="#FFFFFF"
-                                        android:textStyle="bold" />
-
-
-                                </FrameLayout>
-
-
-                            </FrameLayout>
-
-                            <FrameLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imageView5"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    app:srcCompat="@drawable/foto2" />
-
-                                <FrameLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="match_parent">
-
-
-                                    <TextView
-                                        android:id="@+id/textView7"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginTop="16dp"
-                                        android:layout_marginEnd="16dp"
-                                        android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
-                                        android:padding="10dp"
-                                        android:text="PROMO"
-                                        android:textColor="#FFFFFF"
-                                        android:textStyle="bold" />
-
-                                    <TextView
-                                        android:id="@+id/textView3"
-                                        android:layout_width="154dp"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="left|bottom"
-                                        android:layout_marginLeft="16dp"
-                                        android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
-                                        android:padding="10dp"
-                                        android:text="MUA MULAI DARI 1 - 2 JT AN"
-                                        android:textColor="#FFFFFF"
-                                        android:textStyle="bold" />
-
-
-                                </FrameLayout>
-
-
-                            </FrameLayout>
-
-                            <FrameLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imageView8"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    app:srcCompat="@drawable/foto3" />
-
-                                <FrameLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="match_parent">
-
-
-                                    <TextView
-                                        android:id="@+id/textView9"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginTop="16dp"
-                                        android:layout_marginEnd="16dp"
-                                        android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
-                                        android:padding="10dp"
-                                        android:text="PROMO"
-                                        android:textColor="#FFFFFF"
-                                        android:textStyle="bold" />
-
-                                    <TextView
-                                        android:id="@+id/textView99"
-                                        android:layout_width="196dp"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="left|bottom"
-                                        android:layout_marginLeft="16dp"
-                                        android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
-                                        android:padding="10dp"
-                                        android:text="DECORATION POTONGAN HARGA SAMPAI 1 JT!!"
-                                        android:textColor="#FFFFFF"
-                                        android:textStyle="bold" />
-
-
-                                </FrameLayout>
-
-
-                            </FrameLayout>
-
-                        </LinearLayout>
-                    </HorizontalScrollView>
-
-                </LinearLayout>
-
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
@@ -220,7 +54,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -257,7 +91,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -294,7 +128,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -331,7 +165,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -368,7 +202,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -405,7 +239,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -442,7 +276,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -479,7 +313,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -516,7 +350,7 @@
                                 android:layout_width="200px"
                                 android:layout_height="200px"
                                 android:layout_margin="10px"
-                                android:background="@drawable/radius"
+                                android:background="@drawable/radiuspink"
                                 android:padding="10px"
 
                                 >
@@ -606,7 +440,7 @@
                                         android:layout_marginTop="16dp"
                                         android:layout_marginEnd="16dp"
                                         android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
+                                        android:background="@drawable/radiuspink"
                                         android:padding="10dp"
                                         android:text="REC"
                                         android:textColor="#FFFFFF"
@@ -619,7 +453,7 @@
                                         android:layout_gravity="left|bottom"
                                         android:layout_marginLeft="16dp"
                                         android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
+                                        android:background="@drawable/radiuspink"
                                         android:padding="10dp"
                                         android:text="AYO PILIH PAKET HEMAT LENGKAP"
                                         android:textColor="#FFFFFF"
@@ -656,7 +490,7 @@
                                         android:layout_marginTop="16dp"
                                         android:layout_marginEnd="16dp"
                                         android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
+                                        android:background="@drawable/radiuspink"
                                         android:padding="10dp"
                                         android:text="REC"
                                         android:textColor="#FFFFFF"
@@ -669,7 +503,7 @@
                                         android:layout_gravity="left|bottom"
                                         android:layout_marginLeft="16dp"
                                         android:layout_marginBottom="16dp"
-                                        android:background="@drawable/radius"
+                                        android:background="@drawable/radiuspink"
                                         android:padding="10dp"
                                         android:text="AYO PILIH PAKET HEMAT LENGKAP"
                                         android:textColor="#FFFFFF"

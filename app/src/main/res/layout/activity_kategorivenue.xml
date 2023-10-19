@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kategorivenue"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/searchicon9"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:id="@+id/buttonvenue"
+            android:layout_marginRight="10dp"/>
+
+        <SearchView
+            android:id="@+id/search9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="@string/text"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menampilkan rate tertinggi untuk Anda"
+        android:layout_below="@id/searchicon9"
+        android:id="@+id/ratevenue"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginHorizontal="40dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ratevenue"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/linearvenue">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ratevenue_1"
+                android:id="@+id/rate1"
+                android:layout_marginHorizontal="13dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ratevenue_2"
+                android:id="@+id/rate2"
+                android:layout_marginHorizontal="13dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ratevenue_3"
+                android:id="@+id/rate3"
+                android:layout_marginHorizontal="13dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menampilkan rate tertinggi untuk Anda"
+        android:layout_below="@id/horizontalScrollView9"
+        android:id="@+id/menarik"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginHorizontal="40dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/menarik"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearvertical9">
+
+            <ImageView
+                android:id="@+id/venue_1"
+                android:layout_width="321dp"
+                android:layout_height="296dp"
+                android:src="@drawable/venue_1" />
+            <ImageView
+                android:layout_width="321dp"
+                android:layout_height="296dp"
+                android:src="@drawable/venue_2"
+                android:id="@+id/venue_2"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:layout_width="321dp"
+                android:layout_height="296dp"
+                android:src="@drawable/venue_3"
+                android:id="@+id/venue_3"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:layout_width="321dp"
+                android:layout_height="296dp"
+                android:src="@drawable/venue_4"
+                android:id="@+id/venue_4"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

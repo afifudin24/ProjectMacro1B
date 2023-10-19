@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Button9_Kategori"
+        tools:targetApi="31">
+        <activity
+            android:name=".kategorivenue"
+            android:exported="false" />
+        <activity
+            android:name=".kategorifavors"
+            android:exported="false" />
+        <activity
+            android:name=".kategorimusic"
+            android:exported="false" />
+        <activity
+            android:name=".kategoridesign"
+            android:exported="false" />
+        <activity
+            android:name=".kategoriphoto"
+            android:exported="false" />
+        <activity
+            android:name=".kategoricatering"
+            android:exported="false" />
+        <activity
+            android:name=".kategoribaju"
+            android:exported="false" />
+        <activity
+            android:name=".kategorimu"
+            android:exported="false" />
+        <activity
+            android:name=".kategoridecor"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

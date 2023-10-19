@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="KATEGORI"
+        android:textSize="30dp"
+        android:textColor="#3E3E3E"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/buttondecor"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#CBEAC2F1"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Decor" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Make UP"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonmu"
+            android:backgroundTint="#CBEAC2F1"
+            android:layout_below="@id/buttondecor"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Catering"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttoncate"
+            android:layout_below="@id/buttonmu"
+            android:backgroundTint="#CBEAC2F1"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Clothes"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonclothes"
+            android:layout_below="@id/buttoncate"
+            android:backgroundTint="#CBEAC2F1"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Photo"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonphoto"
+            android:layout_below="@id/buttonclothes"
+            android:backgroundTint="#CBEAC2F1"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Design Card"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttoncard"
+            android:layout_below="@id/buttonphoto"
+            android:backgroundTint="#CBEAC2F1"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Favors and Gift"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonfavors"
+            android:layout_below="@id/buttoncard"
+            android:backgroundTint="#CBEAC2F1"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Music"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonmusic"
+            android:layout_below="@id/buttonfavors"
+            android:backgroundTint="#CBEAC2F1"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Venue"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonvenue"
+            android:layout_below="@id/buttonmusic"
+            android:backgroundTint="#CBEAC2F1"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
